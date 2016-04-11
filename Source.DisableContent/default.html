@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html ng-app="sampleApp">
+<head>
+    <title>Disable Content Sample</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/min/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="dist/min/css/piemix.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/underscore-min.js"></script>
+    <script type="text/javascript" src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="lib/angular-animate.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap.min.js"></script>
+    <!--<script src="dist/min/js/piemix.min.js"></script>-->
+    <script src="resource/utility.disableContent.js"></script>
+    <script src="dist/js/app.js"></script>
+</head>
+<body ng-controller="sampleCtrl as sample" style="background:#f0f0f0;">
+    <button class="btn btn-primary" ng-click="sample.click()">Disable Content</button>
+    <h1>{{sample.disable}}</h1>
+    <div disable-content="sample.disable" id="samplediv1">
+        <input ng-model="sample.text" />
+        <button class="btn btn-primary" ng-click="sample.sampleclick()">Sample Button</button>
+        <textarea class="" ng-model="sample.text"></textarea>
+    </div>
+    <div class="clearfix"></div>
+</body>
+</html>
