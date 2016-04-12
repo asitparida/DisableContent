@@ -66,10 +66,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dist\min\js\utility.disableElement.min.js" />
     <Content Include="lib\angular-animate.min.js" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
-    <Content Include="resource\utility.disableContent.js" />
+    <Content Include="resource\utility.disableElement.js" />
     <Content Include="dist\min\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="dist\min\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="dist\min\fonts\glyphicons-halflings-regular.woff" />
@@ -86,7 +87,6 @@
     <Content Include="dist\js\app.js" />
     <Content Include="dist\min\css\bootstrap.min.css" />
     <Content Include="dist\min\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="dist\min\js\piemix.min.js" />
     <Content Include="gulpfile.js" />
     <Content Include="lib\angular-sanitize.min.js" />
     <Content Include="lib\angular.min.js" />
